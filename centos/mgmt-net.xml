@@ -1,0 +1,11 @@
+<network ipv6='yes'>
+  <name>mgmt-net</name>
+  <forward mode='nat'/>
+  <bridge name='br_mgmt-net'/>
+  <ip address='192.168.222.1' netmask='255.255.255.0'>
+    <!--dhcp>
+      <range start='192.168.222.2' end='192.168.222.254'/>
+    </dhcp-->
+  </ip>
+</network>
+
